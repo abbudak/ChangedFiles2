@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace ChangedFiles
 {
-    public partial class Form1 : Form
+    public partial class ChangedFiles : Form
     {
-        public Form1()
+        public ChangedFiles()
         {
             InitializeComponent();
             label2.Visible = false;
