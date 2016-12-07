@@ -102,9 +102,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(12, 261);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(199, 13);
+            this.label2.Size = new System.Drawing.Size(244, 13);
             this.label2.TabIndex = 6;
-            this.label2.Text = "You can click file name to open directory";
+            this.label2.Text = "Finished, You can click file name to open directory";
             // 
             // label3
             // 

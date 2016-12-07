@@ -61,7 +61,7 @@ namespace ChangedFiles
             foreach (string file in files)
             {
                 oFileInfo = new FileInfo(file);
-                dtCreationTime = oFileInfo.CreationTime;
+                dtCreationTime = oFileInfo.LastWriteTime;
                 if (dtCreationTime > dateTimePicker1.Value)
                 {
                     dataGridView1.Rows.Add();
